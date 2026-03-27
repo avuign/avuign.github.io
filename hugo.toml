@@ -1,7 +1,38 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://avuign.github.io/'
 locale = 'en-us'
-title = 'My New Hugo Project'
-theme = 'ananke'
+title = 'Antoine Vuignier'
+theme = "careercanvas"
+
+[params]
+  name = "Antoine Vuignier"
+  email = "ant.vuign@gmail.com"
+  profile_image = "/images/profile.JPG"
+  author = "Antoine Vuignier"
+  #og_image = "images/your-og.png"
+  description = "One-line site description for SEO."
+  linkedin_url = "https://www.linkedin.com/in/avuignier/"
+  linkedin_text = "linkedin.com/in/avuignier"
+  github_url = "https://github.com/avuign"
+  github_text = "github.com/avuign"
+  #calendly_url = ""
+ # calendly_height = "700px"
+  copyright = "© 2026 | Antoine Vuignier"
+  resume_url_en = "/files/CV.pdf"
+  #resume_url_fr = "/files/your-cv-fr.pdf"
+  resume_label = "View CV"
+  sectionPagesMenu = "main"
+  formspreeendpoint = ""
+  pexelsapikey = ""
+
+  [[params.social]]
+    icon = "linkedin-in"
+    url = "https://www.linkedin.com/in/avuignier"
+  [[params.social]]
+    icon = "github"
+    url = "https://github.com/avuign"
+  # [[params.social]]
+  #   icon = "calendly"
+  #   url = "https://calendly.com/yourlink"
 
 [caches]
   [caches.images]
