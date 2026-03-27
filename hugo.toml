@@ -16,7 +16,7 @@ theme = "PaperMod"
     enabled = true
     title = "Antoine Vuignier"
     subtitle = "PhD candidate in Theoretical Physics at EPFL • Transitioning to ML"
-    imageUrl = "/images/profile.jpg"
+    imageUrl = "/images/profile.JPG"
     imageWidth = 150
     imageHeight = 150
 
