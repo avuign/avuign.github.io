@@ -18,7 +18,7 @@ Supervised by João Penedones. Research on the emergence of spacetime in quantum
 
 **Languages** · Native in French, fluent in English, B2 in German
 
-**Coding** · Python (NumPy, SciPy, PyTorch, matplotlib), C++, Mathematica, LaTeX. Experience with numerical optimization, symbolic computation and cluster-based workflows.
+**Coding** · Python (NumPy, SciPy, JAX, matplotlib), C++, Mathematica, LaTeX. Experience with numerical optimization, symbolic computation and cluster-based workflows.
 
 ---
 
@@ -43,4 +43,14 @@ Hands-on training with modern ML frameworks (JAX). Studied neural network archit
 ## Teaching
 
 **Teaching Assistant, EPFL** · 2019–2025  
-Courses: general physics and mathematics (bachelor level), classical electrodynamics, statistical physics, quantum physics, relativity and cosmology. Also taught at the EPFL summer school o
+Courses: general physics and mathematics (bachelor level), classical electrodynamics, statistical physics, quantum physics, relativity and cosmology. Also taught at the EPFL summer school on general relativity for high school students.
+
+---
+
+## Scientific Activities
+
+**Organized weekly seminars** at EPFL · 2025
+
+**Supervised two master students** (M. Nabavi and B. Tafreshi) on their master projects at EPFL · 2023–2024
+
+**Outreach talks** making research accessible to high school and first-year university students · 2022–2025

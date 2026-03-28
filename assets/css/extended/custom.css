@@ -1,17 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&display=swap");
 
-body,
-.post-content,
-.post-title,
-.profile .profile_inner h1,
-.profile .profile_inner h2,
-.profile .profile_inner span,
-article,
-nav,
-footer {
+* {
     font-family:
         "Space Grotesk",
         -apple-system,
         BlinkMacSystemFont,
-        sans-serif;
+        sans-serif !important;
 }
