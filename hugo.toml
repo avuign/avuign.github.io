@@ -12,27 +12,7 @@ theme = 'PaperMod'
   showShareButtons = false
   showReadingTime = false
   showBreadCrumbs = false
-  showPostNavLinks = false
 
-  [params.profileMode]
-    enabled = true
-    title = "Antoine Vuignier"
-    subtitle = "Theoretical Physicist, transitioning to ML"
-    imageUrl = "/images/profile.jpeg"
-    imageWidth = 150
-    imageHeight = 150
-
-    [[params.profileMode.buttons]]
-      name = "About"
-      url = "/about/"
-
-    [[params.profileMode.buttons]]
-      name = "CV"
-      url = "/cv/"
-
-    [[params.profileMode.buttons]]
-      name = "Publications"
-      url = "/publications/"
 
   [[params.socialIcons]]
     name = "github"
@@ -59,3 +39,12 @@ theme = 'PaperMod'
     name = "Publications"
     url = "/publications/"
     weight = 3
+    [[menu.main]]
+  name = "Projects"
+  url = "/projects/"
+  weight = 4
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
