@@ -1,59 +1,61 @@
 baseURL = 'https://avuign.github.io/'
 locale = 'en-us'
 title = 'Antoine Vuignier'
-theme = 'hugo-theme-m10c'
+theme = 'PaperMod'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
 [params]
-  author = "Antoine Vuigner"
-  description = "Theoretical physicist • Transitioning to ML"
-  avatar = "/avatar.jpeg"
-  menu_item_separator = " · "
+  defaultTheme = "auto"
+  showShareButtons = false
+  showReadingTime = false
+  showBreadCrumbs = false
+  showPostNavLinks = false
 
-  [[params.social]]
-    icon = "brand-github"
-    name = "GitHub"
+  [params.profileMode]
+    enabled = true
+    title = "Antoine Vuignier"
+    subtitle = "Theoretical Physicist, transitioning to ML"
+    imageUrl = "/images/profile.jpeg"
+    imageWidth = 150
+    imageHeight = 150
+
+    [[params.profileMode.buttons]]
+      name = "About"
+      url = "/about/"
+
+    [[params.profileMode.buttons]]
+      name = "CV"
+      url = "/cv/"
+
+    [[params.profileMode.buttons]]
+      name = "Publications"
+      url = "/publications/"
+
+  [[params.socialIcons]]
+    name = "github"
     url = "https://github.com/avuign"
 
-  [[params.social]]
-    icon = "brand-linkedin"
-    name = "LinkedIn"
+  [[params.socialIcons]]
+    name = "linkedin"
     url = "https://www.linkedin.com/in/avuignier/"
 
-  [[params.social]]
-    icon = "mail"
-    name = "Email"
+  [[params.socialIcons]]
+    name = "email"
     url = "mailto:ant.vuign@gmail.com"
 
-[[params.social]]
-icon = "book"
-name = "Inspire"
-url = "https://inspirehep.net/authors/2612961"
-
-  [params.style]
-  darkestColor = "#0f172a"
-  darkColor = "#1e293b"
-  lightColor = "#f1f5f9"
-  lightestColor = "#ffffff"
-  primaryColor = "#64748b"
-
-[[menu.main]]
-  identifier = "about"
-  name = "About"
-  url = "/about/"
-  weight = 1
-
-[[menu.main]]
-  identifier = "cv"
-  name = "CV"
-  url = "/cv/"
-  weight = 2
-
-[[menu.main]]
-  identifier = "publications"
-  name = "Publications"
-  url = "/publications/"
-  weight = 3
+[menu]
+  [[menu.main]]
+    name = "About"
+    url = "/about/"
+    weight = 1
+  [[menu.main]]
+    name = "CV"
+    url = "/cv/"
+    weight = 2
+  [[menu.main]]
+    name = "Publications"
+    url = "/publications/"
+    weight = 3
