@@ -1,55 +1,59 @@
 baseURL = 'https://avuign.github.io/'
 locale = 'en-us'
 title = 'Antoine Vuignier'
-theme = "PaperMod"
+theme = 'hugo-theme-m10c'
 
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
 
 [params]
-  defaultTheme = "auto"
-  showShareButtons = false
-  showReadingTime = false
+  author = "Antoine Vuigner"
+  description = "Theoretical physicist • Transitioning to ML"
+  avatar = "/avatar.jpeg"
+  menu_item_separator = " · "
 
-  [params.profileMode]
-    enabled = true
-    title = "Antoine Vuignier"
-    subtitle = "PhD candidate in Theoretical Physics at EPFL • Transitioning to ML"
-    imageUrl = "/images/profile.JPG"
-    imageWidth = 150
-    imageHeight = 150
-
-    [[params.profileMode.buttons]]
-      name = "Projects"
-      url = "/projects"
-
-    [[params.profileMode.buttons]]
-      name = "CV"
-      url = "/CV.pdf"  # put your CV in static/
-
-  [[params.socialIcons]]
-    name = "github"
+  [[params.social]]
+    icon = "brand-github"
+    name = "GitHub"
     url = "https://github.com/avuign"
 
-  [[params.socialIcons]]
-    name = "linkedin"
+  [[params.social]]
+    icon = "brand-linkedin"
+    name = "LinkedIn"
     url = "https://www.linkedin.com/in/avuignier/"
 
-  [[params.socialIcons]]
-    name = "email"
+  [[params.social]]
+    icon = "mail"
+    name = "Email"
     url = "mailto:ant.vuign@gmail.com"
 
-[menu]
-  [[menu.main]]
-    name = "About"
-    url = "/about/"
-    weight = 1
-  [[menu.main]]
-    name = "Projects"
-    url = "/projects/"
-    weight = 2
-  [[menu.main]]
-    name = "Posts"
-    url = "/posts/"
-    weight = 3
+[[params.social]]
+icon = "book"
+name = "Inspire"
+url = "https://inspirehep.net/authors/2612961"
+
+  [params.style]
+  darkestColor = "#0f172a"
+  darkColor = "#1e293b"
+  lightColor = "#f1f5f9"
+  lightestColor = "#ffffff"
+  primaryColor = "#64748b"
+
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "cv"
+  name = "CV"
+  url = "/cv/"
+  weight = 2
+
+[[menu.main]]
+  identifier = "publications"
+  name = "Publications"
+  url = "/publications/"
+  weight = 3
