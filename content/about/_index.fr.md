@@ -14,11 +14,11 @@ Ma recherche doctorale porte sur la dualité holographique et le bootstrap de la
 
 ## Transition vers le Machine Learning
 
-Je m'oriente vers la recherche appliquée en machine learning. Les compétences que j'ai développées pendant mon doctorat, formaliser des questions vagues, trouver la bonne structure mathématique et écrire du code pour obtenir des réponses, sont directement transférables.
+Les compétences que j'ai développées pendant mon doctorat, formaliser des questions vagues, trouver la bonne structure mathématique et écrire du code pour obtenir des réponses, sont directement transférables en machine learning. J'ai d'ailleurs déjà commencé à appliquer cela en construisant un modèle de langage avec PyTorch, incluant le mécanisme d'attention, des boucles d'entraînement et de la génération de texte.
 
 Quelques raisons derrière ce choix :
 
-**C'est intellectuellement stimulant.** Le domaine est jeune, la théorie est en retard sur la pratique, et il y a des questions véritablement ouvertes sur pourquoi les choses fonctionnent. C'est le type d'environnement qui me plaît.
+**C'est intellectuellement stimulant.** Le domaine est jeune, la théorie est en retard sur la pratique, et il y a des questions véritablement ouvertes sur pourquoi les choses fonctionnent. C'est le type d'environnement qui me plaît et dans lequel je peux contribuer.
 
 **Les problèmes sont familiers.** Comprendre ce que les modèles apprennent réellement, pourquoi certaines architectures fonctionnent et comment rendre l'entraînement plus rigoureux sont des questions qui demandent exactement le type de réflexion que je pratique depuis cinq ans.
 

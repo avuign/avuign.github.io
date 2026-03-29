@@ -14,13 +14,13 @@ My PhD research focuses on holographic duality and the S-matrix bootstrap. I bui
 
 ## Transition to Machine Learning
 
-I'm transitioning into applied ML research. The skills I built during my PhD, formalizing vague questions, finding the right mathematical structure, and writing code to get answers, transfer directly.
+The skills I built during my PhD, formalizing vague questions, finding the right mathematical structure, and writing code to get answers, transfer directly into ML research. I've already applied this by building a Transformer language model from scratch in PyTorch, including attention, training loops, and text generation.
 
 A few reasons for this move:
 
-**It's intellectually challenging.** The field is young, the theory lags behind practice, and there are genuinely open questions about why things work. That's the kind of environment I like.
+**It's intellectually challenging.** The field is young, the theory lags behind practice, and there are genuinely open questions about why things work. That's the kind of environment I like and in which I can contribute. 
 
-**The problems are familiar.** Understanding what models actually learn, why certain architectures work, and how to make training more principled are questions that reward the same kind of thinking I've been doing for five years.
+**The problems are familiar.** Understanding what models actually learn, why certain architectures work, and how to make training more principled are questions that reward the same kind of thinking I've been doing for the last decade.
 
 **It matters now.** Fundamental theoretical physics operates on long timescales. Some questions I've worked on were asked 50 years ago and might take another 50 to resolve. I want to work on problems where I can see the impact within my lifetime, and where the answers actually change something.
 
@@ -28,7 +28,7 @@ A few reasons for this move:
 
 <img src="/images/hiking.jpeg" alt="Hiking" style="width: 250px; border-radius: 8px; float: right; margin-left: 20px; margin-bottom: 10px;">
 
-When I'm not at a blackboard or a screen, I like hiking. Living in Swiss alps makes that easy. I like being in contact with nature with my wife and kid, it's a good counterbalance to abstract work.
+When I'm not at a blackboard or a screen, I like hiking. Living in Valais at the heart of the Swiss alps makes that easy. I like being in contact with nature with my wife and kid, it's a good counterbalance to abstract work.
 
 ## Contact
 

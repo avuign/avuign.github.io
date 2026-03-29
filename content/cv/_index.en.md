@@ -18,7 +18,7 @@ Supervised by João Penedones. Research on the emergence of spacetime in quantum
 
 **Languages** · Native in French, fluent in English, B2 in German
 
-**Coding** · Python (NumPy, SciPy, JAX, matplotlib), C++, Mathematica, LaTeX. Experience with numerical optimization, symbolic computation and cluster-based workflows.
+**Coding** · Python (NumPy, SciPy, PyTorch, matplotlib), Golang,C++, Mathematica, LaTeX. Experience with numerical optimization, symbolic computation and cluster-based workflows.
 
 ---
 

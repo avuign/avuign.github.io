@@ -4,19 +4,20 @@ title: "Projects"
 
 ## Machine Learning
 
-### Transformer language model from scratch
+### Neural network from scratch in NumPy
 
-A word-level Transformer trained on Shakespeare, built from scratch in PyTorch. The model implements multi-head self-attention, positional encoding, residual connections and LayerNorm. Tokenization, training loop and text generation are all written by hand. Trained on CPU.
+A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It's also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.
 
-**Stack:** Python, PyTorch
+**Stack:** Python, NumPy, JAX, Flax, Optax
 
-[GitHub](https://github.com/avuign/femto_chatbot)
-
+[GitHub](https://github.com/avuign/MNIST)
 ---
 
-### Character-level language model with knowledge distillation
+### Knowledge distillation pipeline
 
-A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher's output distribution using a KL divergence loss.
+A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher's output distribution using a KL divergence loss. 
+
+The student model trained on soft targets performed comparably to one trained directly on data with the same architecture, suggesting that at this scale the teacher's output distribution doesn't carry significantly more information than the hard labels. A natural next step would be to test this on a deeper architecture where the teacher's internal representations are richer and the gap between hard and soft targets should be larger.
 
 **Stack:** Python, PyTorch
 
@@ -24,13 +25,13 @@ A character-level model that learns the statistical structure of English names a
 
 ---
 
-### MNIST digit classification
+### Transformer language model from scratch
 
-Two implementations of digit classification on MNIST, in the same repository. The first is a multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The second is a convolutional neural network built with JAX/Flax and Optax, reaching ~95% test accuracy.
+Work in progress. I'm building a GPT-style language model from scratch in PyTorch. The goal is to implement the full pipeline end-to-end: BPE tokenization, multi-head attention, pretraining, and text generation. Expected completion: summer 2026.
 
-**Stack:** Python, NumPy, JAX, Flax, Optax
+**Stack:** Python, PyTorch
 
-[GitHub](https://github.com/avuign/MNIST)
+[GitHub](https://github.com/avuign/femto_chatbot)
 
 ---
 

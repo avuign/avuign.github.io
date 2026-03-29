@@ -11,7 +11,7 @@ Theoretical physicist interested in understanding how things work at the deepest
 
 I'm a final-year PhD candidate in theoretical physics at [EPFL](https://www.epfl.ch/en/), working on quantum field theory and quantum gravity. I turn abstract questions into precise mathematical problems that I solve with a combination of pen and paper calculations and computational workflows in Python and Mathematica.
 
-I'm now looking for a research-oriented position in machine learning, where strong quantitative thinking and technical problem-solving are central. I expect to defend my thesis during the summer of 2026.
+I'm now looking for a research-oriented position in machine learning or applied science, where strong quantitative thinking and technical problem-solving are central. I'm based in Valais, Switzerland, and expect to defend my thesis during the summer of 2026.
 
 **What I bring:**
 
