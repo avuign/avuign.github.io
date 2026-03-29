@@ -2,28 +2,41 @@
 title: "Projects"
 ---
 
-## What is spacetime made of ?
+## Machine Learning
 
-I'm trying to understand what are the building block of space and time themselves. As strange as this question might sound, the last 50 years of fundamental physics taught us that instead of being fundamental, spacetime can be an emergent phenomena, much like temperature emerges from the motion of a large number of particles. What are the "particles" building up spacetime ? How exactly do they interact ?
+### Transformer language model from scratch
 
-Those are the questions I'm exploring in my research, where I essentially study the simplest models I can think of that exhibit gravity-like properties when we look at a large ensemble of particles. This is the core idea behind the [holographic principle](https://en.wikipedia.org/wiki/Holographic_principle).
+A word-level Transformer trained on Shakespeare, built from scratch in PyTorch. The model implements multi-head self-attention, positional encoding, residual connections and LayerNorm. Tokenization, training loop and text generation are all written by hand. Trained on CPU.
 
-Finding such models is quite hard, but we know some examples coming out of string theory. I study what I think are the simplest of those models in terms of complexity, and try to understand why exactly those models are holographic. Understanding what is the crucial mechanism of particles interactions that lead to an emergent geometric description satisfying the laws of general relativity would be a fundamental breathrough in the field.
+**Stack:** Python, PyTorch
 
----
-
-## How do computers work ?
-
-In parallel of my dreams about spacetime, I'm also interested in more down-to-earth things, and in particular computers. In my journey of trying to understand how they work I came accross the [boot.dev](https://boot.dev) platform. There I could strengthen my python skills, learn about memory managment in C,backend developement using Golang and SQL and so much more. You can follow my progression on my [profile](https://www.boot.dev/u/hatom).
+[GitHub](https://github.com/avuign/femto_chatbot)
 
 ---
 
-## How do computers think ?
+### Character-level language model with knowledge distillation
 
-I've been interested by machine learning and artificial intelligence for a long time, but I finally decided to actually invest into learning it after participating to a workshop on [artificial intelligence for high energy physics](https://indico.global/event/14060/).
+A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher's output distribution using a KL divergence loss.
 
-There we quickly saw how deep neural netwok work, and how to train a machine to recognize handwritten digits. Since I wanted to understand things from the ground up, I replicated the exercise by coding every function from scratch to be sure I understood the logic. You can see the result on my [github](https://github.com/avuign/MNIST).
+**Stack:** Python, PyTorch
 
-Then, wanting to go further and ultimately to learn LLMs, I started by implementing a simple [character-generation model](https://github.com/avuign/char_lm). This model is trained to guess the next letter in a word, and can then be used to generate new words, or names. This was a small increment from the digit recognition, and therefore took the opportunity to also learn how models can learn via distillation, something I implemented in the project.
+[GitHub](https://github.com/avuign/char_lm)
 
-The next step is to have real text generation, and for that I'm working through Sebastian Raschka's book *Build a Large Language Model (From Scratch)* to learn how to implement a GPT-style model step by step in PyTorch. The goal is to understand transformers at a low level: tokenization, attention, training loops, and text generation. My current progress is [there](https://github.com/avuign/femto_chatbot).
+---
+
+### MNIST digit classification
+
+Two implementations of digit classification on MNIST, in the same repository. The first is a multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The second is a convolutional neural network built with JAX/Flax and Optax, reaching ~95% test accuracy.
+
+**Stack:** Python, NumPy, JAX, Flax, Optax
+
+[GitHub](https://github.com/avuign/MNIST)
+
+---
+
+## Physics research
+
+### Why does gravity emerge from matrices?
+
+The IKKT model does not describe the real world, but that is precisely the point. It is a toy model, simple enough to study in detail, that exhibits a remarkable property: a statistical system of interacting matrices, something not so different from a gas of particles, reorganizes itself at large N into a theory of dynamical spacetime obeying Einstein's equations. The real question is why. What is it about the interactions that makes this happen?
+One concrete angle of attack is to integrate out part of the matrix. Start with a (N+k) × (N+k) matrix and integrate over the N × N block, leaving k entries untouched. The result is an effective action for the remaining degrees of freedom, which should describe k D-instantons propagating in the geometry generated by the N others. We cannot evaluate this integral exactly, but we can write down equations that this effective action must satisfy. For a generic matrix model, those equations form an infinite coupled hierarchy (they're similar to the loop equations). The key observation is that for holographic models like IKKT, the hierarchy should truncate: in the right variables, the infinite tower collapses to a finite set of equations that reproduce general relativity. Understanding what property of the interactions drives this truncation is, in my view, the central open question in this area.

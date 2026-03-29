@@ -39,10 +39,15 @@ theme = 'PaperMod'
     name = "Publications"
     url = "/publications/"
     weight = 3
-    [[menu.main]]
+[[menu.main]]
   name = "Projects"
   url = "/projects/"
   weight = 4
+
+[[menu.main]]
+ name = "Blog"
+ url = "/blog/"
+ weight = 5
 
 [markup]
   [markup.goldmark]
