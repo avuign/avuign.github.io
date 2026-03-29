@@ -13,11 +13,11 @@ I'm a final-year PhD candidate in theoretical physics at [EPFL](https://www.epfl
 
 I'm now looking for a research-oriented position in machine learning, where strong quantitative thinking and technical problem-solving are central. I expect to defend my thesis during the summer of 2026.
 
-What I bring:
+**What I bring:**
 
--5 publications in high-energy theoretical physics, combining analytical work with computational pipelines (numerical solvers, semidefinite programming, cluster workflows)
--ML models built from scratch in PyTorch and JAX: Transformer language model, knowledge distillation pipeline, CNN and MLP with hand-coded backpropagation
--A habit of understanding things from the ground up before using abstractions
+- 5 publications in high-energy theoretical physics, combining analytical work with computational pipelines (numerical solvers, semidefinite programming, cluster workflows)
+- ML models built from scratch in PyTorch and JAX: Transformer language model, knowledge distillation pipeline, CNN and MLP with hand-coded backpropagation
+- A habit of understanding things from the ground up before using abstractions
 
 [More about me →](/about/)
 
