@@ -11,6 +11,7 @@ A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation 
 **Stack:** Python, NumPy, JAX, Flax, Optax
 
 [GitHub](https://github.com/avuign/MNIST)
+
 ---
 
 ### Knowledge distillation pipeline

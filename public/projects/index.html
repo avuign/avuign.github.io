@@ -8,13 +8,8 @@
 <title>Projects | Antoine Vuignier</title>
 <meta name="keywords" content="">
 <meta name="description" content="Machine Learning
-Transformer language model from scratch
-A word-level Transformer trained on Shakespeare, built from scratch in PyTorch. The model implements multi-head self-attention, positional encoding, residual connections and LayerNorm. Tokenization, training loop and text generation are all written by hand. Trained on CPU.
-Stack: Python, PyTorch
-GitHub
-
-Character-level language model with knowledge distillation
-A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher&rsquo;s output distribution using a KL divergence loss.">
+Neural network from scratch in NumPy
+A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It&rsquo;s also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/projects/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.0c7591304b28f57793d97085e04729a94b8513358a1c91fef69999ea19d1752d.css" integrity="sha256-DHWRMEso9XeT2XCF4EcpqUuFEzWKHJH&#43;9pmZ6hnRdS0=" rel="preload stylesheet" as="style">
@@ -157,20 +152,21 @@ A character-level model that learns the statistical structure of English names a
   </h1>
 </header>
 <div class="post-content"><h2 id="machine-learning">Machine Learning<a hidden class="anchor" aria-hidden="true" href="#machine-learning">#</a></h2>
-<h3 id="transformer-language-model-from-scratch">Transformer language model from scratch<a hidden class="anchor" aria-hidden="true" href="#transformer-language-model-from-scratch">#</a></h3>
-<p>A word-level Transformer trained on Shakespeare, built from scratch in PyTorch. The model implements multi-head self-attention, positional encoding, residual connections and LayerNorm. Tokenization, training loop and text generation are all written by hand. Trained on CPU.</p>
-<p><strong>Stack:</strong> Python, PyTorch</p>
-<p><a href="https://github.com/avuign/femto_chatbot">GitHub</a></p>
+<h3 id="neural-network-from-scratch-in-numpy">Neural network from scratch in NumPy<a hidden class="anchor" aria-hidden="true" href="#neural-network-from-scratch-in-numpy">#</a></h3>
+<p>A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It&rsquo;s also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.</p>
+<p><strong>Stack:</strong> Python, NumPy, JAX, Flax, Optax</p>
+<p><a href="https://github.com/avuign/MNIST">GitHub</a></p>
 <hr>
-<h3 id="character-level-language-model-with-knowledge-distillation">Character-level language model with knowledge distillation<a hidden class="anchor" aria-hidden="true" href="#character-level-language-model-with-knowledge-distillation">#</a></h3>
+<h3 id="knowledge-distillation-pipeline">Knowledge distillation pipeline<a hidden class="anchor" aria-hidden="true" href="#knowledge-distillation-pipeline">#</a></h3>
 <p>A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher&rsquo;s output distribution using a KL divergence loss.</p>
+<p>The student model trained on soft targets performed comparably to one trained directly on data with the same architecture, suggesting that at this scale the teacher&rsquo;s output distribution doesn&rsquo;t carry significantly more information than the hard labels. A natural next step would be to test this on a deeper architecture where the teacher&rsquo;s internal representations are richer and the gap between hard and soft targets should be larger.</p>
 <p><strong>Stack:</strong> Python, PyTorch</p>
 <p><a href="https://github.com/avuign/char_lm">GitHub</a></p>
 <hr>
-<h3 id="mnist-digit-classification">MNIST digit classification<a hidden class="anchor" aria-hidden="true" href="#mnist-digit-classification">#</a></h3>
-<p>Two implementations of digit classification on MNIST, in the same repository. The first is a multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The second is a convolutional neural network built with JAX/Flax and Optax, reaching ~95% test accuracy.</p>
-<p><strong>Stack:</strong> Python, NumPy, JAX, Flax, Optax</p>
-<p><a href="https://github.com/avuign/MNIST">GitHub</a></p>
+<h3 id="transformer-language-model-from-scratch">Transformer language model from scratch<a hidden class="anchor" aria-hidden="true" href="#transformer-language-model-from-scratch">#</a></h3>
+<p>Work in progress. I&rsquo;m building a GPT-style language model from scratch in PyTorch. The goal is to implement the full pipeline end-to-end: BPE tokenization, multi-head attention, pretraining, and text generation. Expected completion: summer 2026.</p>
+<p><strong>Stack:</strong> Python, PyTorch</p>
+<p><a href="https://github.com/avuign/femto_chatbot">GitHub</a></p>
 <hr>
 <h2 id="physics-research">Physics research<a hidden class="anchor" aria-hidden="true" href="#physics-research">#</a></h2>
 <h3 id="why-does-gravity-emerge-from-matrices">Why does gravity emerge from matrices?<a hidden class="anchor" aria-hidden="true" href="#why-does-gravity-emerge-from-matrices">#</a></h3>
