@@ -1,7 +1,4 @@
 body {
-    font-family:
-        "Space Grotesk",
-        -apple-system,
-        BlinkMacSystemFont,
-        sans-serif;
+    font-family: "Space Grotesk", sans-serif;
+    font-weight: 100;
 }
