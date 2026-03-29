@@ -20,7 +20,7 @@ A few reasons for this move:
 
 **It's intellectually challenging.** The field is young, the theory lags behind practice, and there are genuinely open questions about why things work. That's the kind of environment I like.
 
-**The skillset transfers.** My background trained me to formalize vague questions, find the right mathematical structure, and write code to get answers. ML research needs exactly this: understanding what models actually learn, why certain architectures work, and how to make training more principled.
+**The problems are familiar.** Understanding what models actually learn, why certain architectures work, and how to make training more principled are questions that reward the same kind of thinking I've been doing for five years.
 
 **It matters now.** Fundamental theoretical physics operates on long timescales. Some questions I've worked on were asked 50 years ago and might take another 50 to resolve. I want to work on problems where I can see the impact within my lifetime, and where the answers actually change something.
 
