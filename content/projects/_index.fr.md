@@ -28,7 +28,7 @@ Le modèle student entraîné sur les soft targets a obtenu des performances com
 
 ### Transformer language model from scratch
 
-Travail en cours. Je construis un language model de type GPT from scratch en PyTorch. L'objectif est d'implémenter le pipeline complet de bout en bout : tokenization BPE, multi-head attention, pretraining et génération de texte. Complétion prévue : été 2026.
+Je construis un language model de type GPT from scratch en PyTorch. L'objectif est d'implémenter le pipeline complet de bout en bout : tokenization BPE, multi-head attention, pretraining et génération de texte.
 
 **Stack :** Python, PyTorch
 

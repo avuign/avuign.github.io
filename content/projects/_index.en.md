@@ -28,11 +28,11 @@ The student model trained on soft targets performed comparably to one trained di
 
 ### Transformer language model from scratch
 
-Work in progress. I'm building a GPT-style language model from scratch in PyTorch. The goal is to implement the full pipeline end-to-end: BPE tokenization, multi-head attention, pretraining, and text generation. Expected completion: summer 2026.
+I'm built a GPT-style language model from scratch in PyTorch. The goal is to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation, in order to understand all the steps in details.
 
 **Stack:** Python, PyTorch
 
-[GitHub](https://github.com/avuign/femto_chatbot)
+[GitHub](https://github.com/avuign/Femto_GPT)
 
 ---
 
