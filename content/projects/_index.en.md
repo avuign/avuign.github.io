@@ -7,7 +7,6 @@ title: "Projects"
 ### Solving matrix models with neural networks
 
 In the large N limit of a Hermitian matrix model, the eigenvalue density minimizes a known action functional. Instead of solving the saddle-point equation analytically, I parameterize the density as a neural network and minimize the action directly via gradient descent. Positivity and normalization are enforced architecturally through a continuous softmax. The network recovers the Wigner semicircle for the Gaussian potential and both the one-cut and two-cut solutions of the quartic potential.
-This sits at the intersection of my physics research and my ML work: the matrix models are objects I've published on, and the method is a variational approach using standard deep learning tools. It's also a proof of concept for using neural network ansätze in problems where the equations are known but hard to solve — which is the generic situation in theoretical physics.
 
 **Stack:** Python, PyTorch
 
