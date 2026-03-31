@@ -31,7 +31,10 @@ See [INSPIRE profile](https://inspirehep.net/authors/2612961)
 
 ---
 
-## Workshops and Training
+## Training and Projects
+
+**ML Projects** · 2025–2026 
+Built a neural network approach (PyTorch) to solve matrix models. Also built a progression of models from scratch in PyTorch to learn deep learning fundamentals: CNN for digit recognition (JAX/Flax + NumPy-only implementation), character-level language model with knowledge distillation (PyTorch), and a GPT-2-style Transformer with multi-head causal attention (PyTorch).
 
 **Artificial Intelligence for High Energy Physics** · 2025  
 Hands-on training with modern ML frameworks (JAX). Studied neural network architectures, optimization methods, and their applications to physics problems.
@@ -40,17 +43,11 @@ Hands-on training with modern ML frameworks (JAX). Studied neural network archit
 
 ---
 
-## Teaching
+## Teaching and Scientific Activities
 
 **Teaching Assistant, EPFL** · 2019–2025  
-Courses: general physics and mathematics (bachelor level), classical electrodynamics, statistical physics, quantum physics, relativity and cosmology. Also taught at the EPFL summer school on general relativity for high school students.
-
----
-
-## Scientific Activities
+10+ courses on physics and mathematics at the bachelor and master level : general physics, analysis, linear algebra, electrodynamics, statistical physics, quantum physics, general relativity. Taught at [summer schools](https://www.epfl.ch/education/education-and-science-outreach/gymnasiens-2/pre-university-weeks/general-relativity/) for high school students. Supervised two master students (M. Nabavi and B. Tafreshi) on their thesis.
 
 **Organized weekly seminars** at EPFL · 2025
-
-**Supervised two master students** (M. Nabavi and B. Tafreshi) on their master projects at EPFL · 2023–2024
 
 **Outreach talks** making research accessible to high school and first-year university students · 2022–2025
