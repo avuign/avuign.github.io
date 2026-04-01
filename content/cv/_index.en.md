@@ -1,6 +1,7 @@
 ---
 title: "CV"
 ---
+📄 [Download as PDF](/cv/antoine_vuignier_cv.pdf)
 
 ## Education
 
@@ -33,8 +34,10 @@ See [INSPIRE profile](https://inspirehep.net/authors/2612961)
 
 ## Training and Projects
 
-**ML Projects** · 2025–2026 
-Built a neural network approach (PyTorch) to solve matrix models. Also built a progression of models from scratch in PyTorch to learn deep learning fundamentals: CNN for digit recognition (JAX/Flax + NumPy-only implementation), character-level language model with knowledge distillation (PyTorch), and a GPT-2-style Transformer with multi-head causal attention (PyTorch).
+**ML Projects** · 2025–2026 \
+Designed a physics-informed neural network to solve variational problems over function
+spaces. Familiar with modern deep learning stack (transformers, CNNs, distillation) through from-
+scratch PyTorch/JAX implementations. Code on GitHub.
 
 **Artificial Intelligence for High Energy Physics** · 2025  
 Hands-on training with modern ML frameworks (JAX). Studied neural network architectures, optimization methods, and their applications to physics problems.

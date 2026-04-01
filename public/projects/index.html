@@ -8,8 +8,8 @@
 <title>Projects | Antoine Vuignier</title>
 <meta name="keywords" content="">
 <meta name="description" content="Machine Learning
-Neural network from scratch in NumPy
-A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It&rsquo;s also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.">
+Solving matrix models with neural networks
+In the large N limit of a Hermitian matrix model, the eigenvalue density minimizes a known action functional. For most potentials, the saddle point equation can not be solved analytically. Instead I parameterize the density as a neural network and minimize the action directly via gradient descent. Positivity and normalization are enforced architecturally through a continuous softmax. The network recovers the Wigner semicircle for the Gaussian potential and both the one-cut and two-cut solutions of the analytic quartic potential. It also produces sensible results for the non analytic cases, comparable to other numerical solvers.">
 <meta name="author" content="">
 <link rel="canonical" href="http://localhost:1313/projects/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.0c7591304b28f57793d97085e04729a94b8513358a1c91fef69999ea19d1752d.css" integrity="sha256-DHWRMEso9XeT2XCF4EcpqUuFEzWKHJH&#43;9pmZ6hnRdS0=" rel="preload stylesheet" as="style">
@@ -152,6 +152,10 @@ A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation 
   </h1>
 </header>
 <div class="post-content"><h2 id="machine-learning">Machine Learning<a hidden class="anchor" aria-hidden="true" href="#machine-learning">#</a></h2>
+<h3 id="solving-matrix-models-with-neural-networks">Solving matrix models with neural networks<a hidden class="anchor" aria-hidden="true" href="#solving-matrix-models-with-neural-networks">#</a></h3>
+<p>In the large N limit of a Hermitian matrix model, the eigenvalue density minimizes a known action functional. For most potentials, the saddle point equation can not be solved analytically. Instead I parameterize the density as a neural network and minimize the action directly via gradient descent. Positivity and normalization are enforced architecturally through a continuous softmax. The network recovers the Wigner semicircle for the Gaussian potential and both the one-cut and two-cut solutions of the analytic quartic potential. It also produces sensible results for the non analytic cases, comparable to other numerical solvers.</p>
+<p><strong>Stack:</strong> Python, PyTorch</p>
+<p><a href="https://github.com/avuign/matrix-model-nn">GitHub</a></p>
 <h3 id="neural-network-from-scratch-in-numpy">Neural network from scratch in NumPy<a hidden class="anchor" aria-hidden="true" href="#neural-network-from-scratch-in-numpy">#</a></h3>
 <p>A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It&rsquo;s also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.</p>
 <p><strong>Stack:</strong> Python, NumPy, JAX, Flax, Optax</p>
@@ -164,9 +168,9 @@ A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation 
 <p><a href="https://github.com/avuign/char_lm">GitHub</a></p>
 <hr>
 <h3 id="transformer-language-model-from-scratch">Transformer language model from scratch<a hidden class="anchor" aria-hidden="true" href="#transformer-language-model-from-scratch">#</a></h3>
-<p>Work in progress. I&rsquo;m building a GPT-style language model from scratch in PyTorch. The goal is to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation.</p>
+<p>I built a GPT-style language model from scratch in PyTorch. The goal was to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation, in order to understand all the steps in details.</p>
 <p><strong>Stack:</strong> Python, PyTorch</p>
-<p><a href="https://github.com/avuign/femto_chatbot">GitHub</a></p>
+<p><a href="https://github.com/avuign/Femto_GPT">GitHub</a></p>
 <hr>
 <h2 id="physics-research">Physics research<a hidden class="anchor" aria-hidden="true" href="#physics-research">#</a></h2>
 <h3 id="why-does-gravity-emerge-from-matrices">Why does gravity emerge from matrices?<a hidden class="anchor" aria-hidden="true" href="#why-does-gravity-emerge-from-matrices">#</a></h3>

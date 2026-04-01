@@ -6,6 +6,8 @@ title: "About"
 
 I'm a final year PhD student in theoretical physics at [EPFL](https://www.epfl.ch/en/). I work in the [Fields and Strings laboratory](https://www.epfl.ch/labs/fsl/) where I conduct research in quantum field theory and quantum gravity. Before that, I did my Bachelor's and Master's at EPFL.
 
+<img src="/images/me_and_finn.jpeg" alt="Hiking" style="width: 250px; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;">
+
 What drew me to physics is the idea that complex phenomena can be reduced to simple, universal equations. A few principles explain an enormous range of observations. Physics is fundamentally about finding what's essential and discarding what isn't, until you're left with the minimal structure that actually matters.
 
 This is also what I look for in problems: situations where careful thinking can cut through apparent complexity and reveal something simple underneath.
@@ -14,7 +16,7 @@ My PhD research focuses on holographic duality and the S-matrix bootstrap. I bui
 
 ## Transition to Machine Learning
 
-The skills I built during my PhD, formalizing vague questions, finding the right mathematical structure, and writing code to get answers, transfer directly into ML research. I've already applied this by building a Transformer language model from scratch in PyTorch, including attention, training loops, and text generation.
+The skills I built during my PhD, formalizing vague questions, finding the right mathematical structure, and writing code to get answers, transfer directly into ML research. I've already applied this by building neural networks in Python to solve some of the physics equations I encounter in my research.
 
 A few reasons for this move:
 

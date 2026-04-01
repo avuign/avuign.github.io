@@ -1,6 +1,7 @@
 ---
 title: "CV"
 ---
+📄 [Download as PDF](/cv/antoine_vuignier_cv.pdf)
 
 ## Formation
 
@@ -18,7 +19,7 @@ Sous la supervision de João Penedones. Recherche sur l'émergence de l'espace-t
 
 **Langues** · Français natif, anglais courant, allemand B2
 
-**Programmation** · Python (NumPy, SciPy, JAX, matplotlib), C++, Mathematica, LaTeX. Expérience en optimisation numérique, calcul symbolique et workflows sur cluster.
+**Programmation** · Python (NumPy, SciPy, PyTorch, matplotlib), Golang, C++, Mathematica, LaTeX. Expérience en optimisation numérique, calcul symbolique et workflows sur cluster.
 
 ---
 
@@ -31,26 +32,23 @@ Voir [profil INSPIRE](https://inspirehep.net/authors/2612961)
 
 ---
 
-## Workshops et formations
+## Projets et formations
 
-**Intelligence artificielle pour la physique des hautes énergies** · 2025  
-Formation pratique avec des frameworks ML modernes (JAX). Étude d'architectures de réseaux de neurones, méthodes d'optimisation et applications aux problèmes de physique.
+**Projets ML** · 2025–2026 \
+Construis un réseau de neurones pour résoudre des problèmes variationnels rencontrés dans des équations physiques. Familier avec les outils de deep learning (transformeurs, CNNS, distillation) après les avoir codé de zéro. Code sur GitHub.
 
-**10+ écoles et workshops internationaux** en physique théorique et mathématiques · 2022–2025
+**Intelligence Artificielle pour la physique des hautes énergies** · 2025  
+Formation sur les outils modernes de ML (JAX). Etudié les architectures des réseaux neuronaux, méthodes d'optimisation et leurs applications à des problèmes physiques.
 
----
-
-## Enseignement
-
-**Assistant, EPFL** · 2019–2025  
-Cours : physique générale et mathématiques (niveau bachelor), électrodynamique classique, physique statistique, physique quantique, relativité et cosmologie. Enseignement également à l'école d'été de l'EPFL sur la relativité générale pour lycéens.
+**10+ workshops et formations internationales ** en physique théorique et mathématiques · 2022–2025
 
 ---
 
-## Activités scientifiques
+## Enseignement et activités scientifiques
 
-**Organisation de séminaires hebdomadaires** à l'EPFL · 2025
+**Assistant Etudiant, EPFL** · 2019–2025  
+10+ cours de physique et mathématiques au niveau bachelor et master. Enseigné à des [summer schools](https://www.epfl.ch/education/education-and-science-outreach/gymnasiens-2/pre-university-weeks/general-relativity/) pour les étudiants du gymnase. Supervisé deux étudiants de master (M. Nabavi and B. Tafreshi) pour leur thèse.
 
-**Supervision de deux étudiants en master** (M. Nabavi et B. Tafreshi) pour leurs projets de master à l'EPFL · 2023–2024
+**Organisateur de séminaires hebdomadaires** à l'EPFL · 2025
 
-**Présentations de vulgarisation** rendant la recherche accessible aux lycéens et étudiants de première année · 2022–2025
+**Vulgarisation** Exposés sur ma recherche pour des étudiants de gymnase et première année de bachelor · 2022–2025

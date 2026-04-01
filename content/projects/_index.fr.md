@@ -1,26 +1,34 @@
 ---
-title: "Projets"
+title: "Projects"
 ---
 
 ## Machine Learning
 
-### Réseau de neurones from scratch en NumPy
+### Solving matrix models with neural networks
 
-Un perceptron multicouche codé entièrement en NumPy : forward pass, backpropagation et SGD sont implémentés from scratch, sans aucun framework. L'objectif était de comprendre l'atome du deep learning : ce qui se passe exactement quand un réseau apprend. C'est aussi utile d'avoir une implémentation entièrement maîtrisée pour comprendre ce que le framework fait sous le capot quand j'utilise PyTorch. Le même dépôt contient également un CNN construit avec JAX/Flax et Optax à titre de comparaison, atteignant ~95% de précision sur le jeu de test.
+In the large N limit of a Hermitian matrix model, the eigenvalue density minimizes a known action functional. For most potentials, the saddle point equation can not be solved analytically. Instead I parameterize the density as a neural network and minimize the action directly via gradient descent. Positivity and normalization are enforced architecturally through a continuous softmax. The network recovers the Wigner semicircle for the Gaussian potential and both the one-cut and two-cut solutions of the analytic quartic potential. It also produces sensible results for the non analytic cases, comparable to other numerical solvers.
 
-**Stack :** Python, NumPy, JAX, Flax, Optax
+**Stack:** Python, PyTorch
+
+[GitHub](https://github.com/avuign/matrix-model-nn)
+
+### Neural network from scratch in NumPy
+
+A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It's also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.
+
+**Stack:** Python, NumPy, JAX, Flax, Optax
 
 [GitHub](https://github.com/avuign/MNIST)
 
 ---
 
-### Pipeline de distillation de connaissances
+### Knowledge distillation pipeline
 
-Un modèle character-level qui apprend la structure statistique de prénoms anglais et en génère de nouveaux. L'architecture de base est une couche d'embedding suivie d'un MLP. En plus de l'entraînement standard, j'ai implémenté un pipeline de distillation teacher-student : un modèle teacher plus grand est d'abord entraîné, puis un modèle student plus petit est entraîné à reproduire la distribution de sortie du teacher via une loss de divergence KL.
+A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher's output distribution using a KL divergence loss. 
 
-Le modèle student entraîné sur les soft targets a obtenu des performances comparables à un modèle entraîné directement sur les données avec la même architecture, ce qui suggère qu'à cette échelle la distribution de sortie du teacher ne contient pas significativement plus d'information que les hard labels. Une suite naturelle serait de tester sur une architecture plus profonde, où les représentations internes du teacher sont plus riches et où l'écart entre hard et soft targets devrait être plus marqué.
+The student model trained on soft targets performed comparably to one trained directly on data with the same architecture, suggesting that at this scale the teacher's output distribution doesn't carry significantly more information than the hard labels. A natural next step would be to test this on a deeper architecture where the teacher's internal representations are richer and the gap between hard and soft targets should be larger.
 
-**Stack :** Python, PyTorch
+**Stack:** Python, PyTorch
 
 [GitHub](https://github.com/avuign/char_lm)
 
@@ -28,18 +36,17 @@ Le modèle student entraîné sur les soft targets a obtenu des performances com
 
 ### Transformer language model from scratch
 
-Je construis un language model de type GPT from scratch en PyTorch. L'objectif est d'implémenter le pipeline complet de bout en bout : tokenization BPE, multi-head attention, pretraining et génération de texte.
+I built a GPT-style language model from scratch in PyTorch. The goal was to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation, in order to understand all the steps in details.
 
-**Stack :** Python, PyTorch
+**Stack:** Python, PyTorch
 
-[GitHub](https://github.com/avuign/femto_chatbot)
+[GitHub](https://github.com/avuign/Femto_GPT)
 
 ---
 
-## Recherche en physique
+## Physics research
 
-### Pourquoi la gravité émerge-t-elle de matrices ?
+### Why does gravity emerge from matrices?
 
-Le modèle IKKT ne décrit pas le monde réel, mais c'est précisément là que réside son intérêt. C'est un modèle jouet, suffisamment simple pour être étudié en détail, qui possède une propriété remarquable : un système statistique de matrices en interaction, pas si différent d'un gaz de particules, se réorganise à grand N en une théorie d'espace-temps dynamique obéissant aux équations d'Einstein. La vraie question est : pourquoi ? Qu'est-ce que les interactions ont de particulier pour que cela se produise ?
-
-Un angle d'attaque concret consiste à intégrer une partie de la matrice. On part d'une matrice (N+k) × (N+k) et on intègre sur le bloc N × N, en laissant k entrées intactes. Le résultat est une action effective pour les degrés de liberté restants, qui devrait décrire k D-instantons se propageant dans la géométrie générée par les N autres. On ne peut pas évaluer cette intégrale exactement, mais on peut écrire les équations que cette action effective doit satisfaire. Pour un modèle de matrices générique, ces équations forment une hiérarchie infinie couplée (similaire aux équations de boucle). L'observation clé est que pour les modèles holographiques comme IKKT, la hiérarchie devrait tronquer : dans les bonnes variables, la tour infinie s'effondre en un ensemble fini d'équations qui reproduisent la relativité générale. Comprendre quelle propriété des interactions est responsable de cette troncation est, à mon avis, la question ouverte centrale dans ce domaine.
+The IKKT model does not describe the real world, but that is precisely the point. It is a toy model, simple enough to study in detail, that exhibits a remarkable property: a statistical system of interacting matrices, something not so different from a gas of particles, reorganizes itself at large N into a theory of dynamical spacetime obeying Einstein's equations. The real question is why. What is it about the interactions that makes this happen?
+One concrete angle of attack is to integrate out part of the matrix. Start with a (N+k) × (N+k) matrix and integrate over the N × N block, leaving k entries untouched. The result is an effective action for the remaining degrees of freedom, which should describe k D-instantons propagating in the geometry generated by the N others. We cannot evaluate this integral exactly, but we can write down equations that this effective action must satisfy. For a generic matrix model, those equations form an infinite coupled hierarchy (they're similar to the loop equations). The key observation is that for holographic models like IKKT, the hierarchy should truncate: in the right variables, the infinite tower collapses to a finite set of equations that reproduce general relativity. Understanding what property of the interactions drives this truncation is, in my view, the central open question in this area.

@@ -6,7 +6,7 @@ title: "Projects"
 
 ### Solving matrix models with neural networks
 
-In the large N limit of a Hermitian matrix model, the eigenvalue density minimizes a known action functional. Instead of solving the saddle-point equation analytically, I parameterize the density as a neural network and minimize the action directly via gradient descent. Positivity and normalization are enforced architecturally through a continuous softmax. The network recovers the Wigner semicircle for the Gaussian potential and both the one-cut and two-cut solutions of the quartic potential.
+In the large N limit of a Hermitian matrix model, the eigenvalue density minimizes a known action functional. For most potentials, the saddle point equation can not be solved analytically. Instead I parameterize the density as a neural network and minimize the action directly via gradient descent. Positivity and normalization are enforced architecturally through a continuous softmax. The network recovers the Wigner semicircle for the Gaussian potential and both the one-cut and two-cut solutions of the analytic quartic potential. It also produces sensible results for the non analytic cases, comparable to other numerical solvers.
 
 **Stack:** Python, PyTorch
 
@@ -36,7 +36,7 @@ The student model trained on soft targets performed comparably to one trained di
 
 ### Transformer language model from scratch
 
-I'm built a GPT-style language model from scratch in PyTorch. The goal is to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation, in order to understand all the steps in details.
+I built a GPT-style language model from scratch in PyTorch. The goal was to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation, in order to understand all the steps in details.
 
 **Stack:** Python, PyTorch
 
