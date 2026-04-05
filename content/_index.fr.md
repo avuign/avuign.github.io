@@ -4,28 +4,14 @@ title: "Accueil"
 
 # Antoine Vuignier
 
-Physicien théoricien, passionné par la compréhension profonde des choses.
-
 <img src="/images/profile.jpeg" alt="Antoine Vuignier" style="width: 210px; border-radius: 50%; float: right; margin-left: 20px;">
 
-Je suis doctorant en dernière année de physique théorique à l'[EPFL](https://www.epfl.ch/fr/), où je travaille sur la théorie quantique des champs et la gravité quantique. Je transforme des questions abstraites en problèmes mathématiques précis que je résous en combinant calculs analytiques et méthodes numériques en Python et Mathematica.
+Je suis doctorant en dernière année de physique théorique à l'[EPFL](https://www.epfl.ch/fr/), où je travaille sur la théorie quantique des champs et la gravité quantique. Je transforme des questions abstraites en problèmes mathématiques précis que je résous en combinant calculs analytiques et méthodes computationnelles (solveurs numériques, programmation semi-définie) en Python et Mathematica. J'ai publié 5 articles en physique théorique des hautes énergies. Récemment, j'ai commencé à implémenter des réseaux de neurones pour résoudre des problèmes variationnels issus de mes propres recherches.
 
-Je cherche actuellement un poste orienté recherche en machine learning ou sciences appliquées, où la rigueur quantitative et la résolution de problèmes techniques sont centrales. Basé en Valais, je prévois de soutenir ma thèse durant l'été 2026.
-
-**Ce que j'apporte :**
-
-- 5 publications en physique théorique des hautes énergies
-- Des modèles de machine learning construits de zéro en PyTorch 
-- L'habitude de comprendre les choses en profondeur avant d'utiliser des abstractions
+Je cherche un poste de recherche où la pensée mathématique est centrale, les problèmes demandent de la créativité, et les résultats ont des applications concrètes. Je suis basé en Valais et je prévois de soutenir ma thèse durant l'été 2026.
 
 [En savoir plus →](/about/)
 
 [Projets →](/projects/)
 
 [Publications →](/publications/)
-
----
-
-### Récent
-
-- **Jan 2025** — J'ai donné un [exposé enregistré](https://www.youtube.com/watch?v=kjbl55Tf1rg) sur nos articles *Einstein gravity from a matrix integral*

@@ -4,7 +4,7 @@ title: "À propos"
 
 ## Parcours
 
-Je suis doctorant en dernière année de physique théorique à l'[EPFL](https://www.epfl.ch/fr/). Je travaille au [laboratoire Fields and Strings](https://www.epfl.ch/labs/fsl/) où je mène des recherches en théorie quantique des champs et en gravité quantique. Avant cela, j'ai fait mon Bachelor et mon Master à l'EPFL.
+Je suis doctorant en dernière année de physique théorique à l'[EPFL](https://www.epfl.ch/fr/). Je travaille au [laboratoire de théorie des champs et des cordes](https://www.epfl.ch/labs/fsl/) où je mène des recherches en théorie quantique des champs et en gravité quantique. Avant cela, j'ai fait mon Bachelor et mon Master à l'EPFL.
 
 <img src="/images/me_and_finn.jpeg" alt="Hiking" style="width: 250px; border-radius: 8px; float: left; margin-right: 20px; margin-bottom: 10px;">
 
@@ -12,7 +12,7 @@ Ce qui m'a attiré vers la physique, c'est l'idée que des phénomènes complexe
 
 C'est aussi ce que je recherche dans les problèmes : des situations où une réflexion rigoureuse permet de traverser une complexité apparente et de révéler quelque chose de simple en dessous.
 
-Ma recherche doctorale porte sur la dualité holographique et le bootstrap de la matrice S. Je conçois des méthodes numériques combinant algèbre symbolique, solveurs numériques et optimisation à grande échelle pour étudier comment la gravité peut émerger de modèles matriciels simples et quel est l'espace des théories quantiques des champs compatibles avec des principes physiques généraux. Plus de détails sur la page [Projets](/projects/), dans mes [Publications](/publications/), ou dans une introduction non technique sur le [blog](/blog/what-is-my-phd-about/).
+Ma recherche doctorale porte sur la dualité holographique et le bootstrap de la matrice S. Je conçois des méthodes numériques combinant algèbre symbolique, solveurs numériques et optimisation à grande échelle pour étudier comment la gravité peut émerger de modèles matriciels simples et quel est l'espace des théories quantiques des champs compatibles avec des principes physiques généraux. Plus de détails sont disponibles sur la page [Projets](/projects/), dans mes [Publications](/publications/), ou dans une introduction non technique sur le [blog](/blog/what-is-my-phd-about/).
 
 ## Transition vers le Machine Learning
 
