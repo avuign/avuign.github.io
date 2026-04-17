@@ -16,15 +16,9 @@ My PhD research focuses on holographic duality and the S-matrix bootstrap. I bui
 
 ## Transition to Machine Learning
 
-The skills I built during my PhD, formalizing vague questions, finding the right mathematical structure, and writing code to get answers, transfer directly into ML research. I've already applied this by building neural networks in Python to solve some of the physics equations I encounter in my research.
+At this point in my career, the questions I find most compelling sit at the intersection of machine learning and fundamental science. Chief among them: what would it actually take for AI to contribute to scientific discovery, not as a calculator, but as something closer to a reasoning partner?
 
-A few reasons for this move:
-
-**It's intellectually challenging.** The field is young, the theory lags behind practice, and there are genuinely open questions about why things work. That's the kind of environment I like and in which I can contribute. 
-
-**The problems are familiar.** Understanding what models actually learn, why certain architectures work, and how to make training more principled are questions that reward the same kind of thinking I've been doing for the last decade.
-
-**It matters now.** Fundamental theoretical physics operates on long timescales. Some questions I've worked on were asked 50 years ago and might take another 50 to resolve. I want to work on problems where I can see the impact within my lifetime, and where the answers actually change something.
+That question is what drew me in. But it's a second one that made me want to work on it rather than simply watch from the sidelines. We have only a fragmentary understanding of why modern ML systems work as well as they do: why certain architectures generalise, what is actually encoded in a trained model, how predictive accuracy relates to anything we would recognise as genuine understanding, and whether formal reasoning can be integrated into these systems in a principled way. These are precisely the things that would need to improve before AI can function as a genuine collaborator in research, rather than a sophisticated tool.
 
 ## Beyond work
 
