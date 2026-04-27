@@ -3,6 +3,8 @@ title = 'Antoine Vuignier'
 theme = 'PaperMod'
 defaultContentLanguage = 'en'
 
+disableLanguages = ['fr']
+
 [caches]
   [caches.images]
     dir = ':cacheDir/images'
