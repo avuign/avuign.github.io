@@ -1,7 +1,7 @@
 ---
 title: "CV"
 ---
-📄 [Download as PDF](/cv/antoine_vuignier_cv.pdf)
+📄 [Download as PDF](/CV.pdf)
 
 ## Education
 
