@@ -6,7 +6,11 @@ title: "CV"
 ## Education
 
 **PhD, EPFL - Fields and Strings Laboratory** · 2022 – present  
-Supervised by João Penedones. Research on the emergence of spacetime in quantum gravity and non-perturbative approaches to quantum field theory. Built computational workflows combining Mathematica and Python for symbolic algebra, numerical linear algebra, and large-scale convex optimization (semidefinite programming) on external clusters.  
+Supervised by João Penedones. Research on non-perturbative quantum field theory and quantum
+gravity, spanning the S-matrix bootstrap (bounding scattering amplitudes in 2D QFT via semidefinite
+programming) and the large-N matrix model approach to emergent spacetime. Combined pen-and-
+paper analysis with computational workflows in Python and Wolfram Language: large-scale SDP
+(SDPB) on HPC clusters, Hamiltonian truncation, spectral methods.  
 *Thesis: What is spacetime made of?*
 
 **Bachelor and Master of Physics, EPFL** · 2017 – 2022
@@ -15,11 +19,14 @@ Supervised by João Penedones. Research on the emergence of spacetime in quantum
 
 ## Skills
 
-**General** · Problem solving, critical thinking, public speaking, teaching, project supervision
+**Coding** · Python (NumPy, SciPy, PyTorch, JAX/Flax/Optax, matplotlib), Wolfram Language, LATEX, C++. HPC
+cluster workflows (SLURM, Docker), semidefinite programming (SDPB).
 
-**Languages** · Native in French, fluent in English, B2 in German
+**General** · Problem solving, critical thinking, public speaking, teaching, project supervision.
 
-**Coding** · Python (NumPy, SciPy, PyTorch, matplotlib), Golang,C++, Mathematica, LaTeX. Experience with numerical optimization, symbolic computation and cluster-based workflows.
+**Languages** · Native in French, fluent in English, B2 in German.
+
+
 
 ---
 
@@ -32,17 +39,18 @@ See [INSPIRE profile](https://inspirehep.net/authors/2612961)
 
 ---
 
-## Training and Projects
+## Machine Learning
 
-**ML Projects** · 2025–2026 \
-Designed a physics-informed neural network to solve variational problems over function
-spaces. Familiar with modern deep learning stack (transformers, CNNs, distillation) through from-
-scratch PyTorch/JAX implementations. Code on GitHub.
+Built a variational neural solver for large-N Hermitian matrix models. The eigenvalue density is parametrised by
+an MLP trained to minimise the effective matrix model action, recovering exact analytic solutions in benchmark
+cases and handling expected phase transitions. Implemented in both PyTorch and JAX.
 
-**Artificial Intelligence for High Energy Physics** · 2025  
-Hands-on training with modern ML frameworks (JAX). Studied neural network architectures, optimization methods, and their applications to physics problems.
+Implemented a decoder-only transformer following the GPT-2 architecture (12 layers, 12 heads, 768-dim em-
+beddings) and a character-level language model with knowledge distillation experiments, both from scratch in
+PyTorch.
 
-**10+ international schools and workshops** in theoretical physics and mathematics · 2022–2025
+Participated at the AI for High Energy Physics EPFL workshop. Hands-on training with JAX and modern neural
+network architectures, with applications to physics problems.
 
 ---
 
@@ -51,6 +59,12 @@ Hands-on training with modern ML frameworks (JAX). Studied neural network archit
 **Teaching Assistant, EPFL** · 2019–2025  
 10+ courses on physics and mathematics at the bachelor and master level : general physics, analysis, linear algebra, electrodynamics, statistical physics, quantum physics, general relativity. Taught at [summer schools](https://www.epfl.ch/education/education-and-science-outreach/gymnasiens-2/pre-university-weeks/general-relativity/) for high school students. Supervised two master students (M. Nabavi and B. Tafreshi) on their thesis.
 
-**Organized weekly seminars** at EPFL · 2025
+**Research seminar organizer, EPFL** at EPFL · 2025
+End-to-end coordination of weekly seminar series, including speaker se-
+lection, logistics, chairing, and communication.
+
+**Peer Reviewer, JHEP** 
+Served as peer reviewer for JHEP, evaluating manuscripts on quantum gravity for scien-
+tific rigor, methodology, and novelty.
 
 **Outreach talks** making research accessible to high school and first-year university students · 2022–2025
