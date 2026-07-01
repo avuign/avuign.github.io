@@ -2,6 +2,38 @@
 title: "Projects"
 ---
 
+## Scientific Computing
+
+### Pseudospectral PDE solver
+
+Numerical solution of the Schrödinger equation for a 2D anisotropic potential
+arising in a matrix model of quantum gravity. The main challenge is a strongly
+anisotropic wavefunction which
+makes naive discretization fail completely. The solver uses Chebyshev collocation
+on a compactified domain, coordinate rescaling to equalize resolution across
+directions, and symmetry reduction to halve the matrix size. Convergence is
+verified across grid sizes M=22–48 against analytical predictions from the paper.
+
+**Stack:** Python, NumPy
+
+[GitHub](https://github.com/avuign/Hamiltonian_Truncation_MQM) · Published in [JHEP 2025](https://link.springer.com/article/10.1007/JHEP04(2025)169)
+
+
+### Boundary value problem solver
+
+Numerical solution of a singular 4D electrostatic integral equation arising in a
+holographic model of gravity. The charge density on a conductor is expanded in a
+Legendre basis with a square-root tip correction, the singular kernel is evaluated
+by adaptive quadrature, and the boundary value problem reduces to a linear
+least-squares system solved exactly with NumPy. Six basis functions are enough for
+full convergence.
+
+**Stack:** Python, NumPy, SciPy
+
+[GitHub](https://github.com/avuign/electrostatics_sugra) · Supports results in [arXiv:2411.18678](https://arxiv.org/abs/2411.18678)
+
+---
+
 ## Machine Learning
 
 ### Solving matrix models with neural networks
@@ -12,35 +44,6 @@ In the large N limit of a Hermitian matrix model, the eigenvalue density minimiz
 
 [GitHub](https://github.com/avuign/matrix-model-nn)
 
-### Neural network from scratch in NumPy
-
-A multi-layer perceptron coded entirely in NumPy: forward pass, backpropagation and SGD are implemented from scratch, with no framework involved. The goal was to understand the atom of deep learning: what exactly happens when a network learns. It's also useful to have a fully controlled implementation so that when I use PyTorch I understand what the framework is doing under the hood. The same repository also contains a CNN built with JAX/Flax and Optax for comparison, reaching ~95% test accuracy.
-
-**Stack:** Python, NumPy, JAX, Flax, Optax
-
-[GitHub](https://github.com/avuign/MNIST)
-
----
-
-### Knowledge distillation pipeline
-
-A character-level model that learns the statistical structure of English names and generates new ones. The core architecture is an embedding layer followed by an MLP. On top of standard training, I implemented a teacher-student distillation pipeline: a larger teacher model is trained first, then a smaller student model is trained to match the teacher's output distribution using a KL divergence loss. 
-
-The student model trained on soft targets performed comparably to one trained directly on data with the same architecture, suggesting that at this scale the teacher's output distribution doesn't carry significantly more information than the hard labels. A natural next step would be to test this on a deeper architecture where the teacher's internal representations are richer and the gap between hard and soft targets should be larger.
-
-**Stack:** Python, PyTorch
-
-[GitHub](https://github.com/avuign/char_lm)
-
----
-
-### Transformer language model from scratch
-
-I built a GPT-style language model from scratch in PyTorch. The goal was to implement the full pipeline end-to-end: tokenization, multi-head attention, pretraining, and text generation, in order to understand all the steps in details.
-
-**Stack:** Python, PyTorch
-
-[GitHub](https://github.com/avuign/Femto_GPT)
 
 ---
 

@@ -14,11 +14,15 @@ This is also what I look for in problems: situations where careful thinking can 
 
 My PhD research focuses on holographic duality and the S-matrix bootstrap. I build computational pipelines combining symbolic algebra, numerical solvers and large-scale optimization to study how gravity can emerge from simple matrix models and what is the space of quantum field theories compatible with general physics principles. You can read more on the [Projects](/projects/) page, see my [Publications](/publications/), or see a non-technical introduction on the [blog](/blog/what-is-my-phd-about/).
 
-## Transition to Machine Learning
+## What I'm looking for
 
-At this point in my career, the questions I find most compelling sit at the intersection of machine learning and fundamental science. Chief among them: what would it actually take for AI to contribute to scientific discovery, not as a calculator, but as something closer to a reasoning partner?
+I am looking to move into applied research, where the problems are concrete and the
+methods are rigorous. My background in physics has given me a set of tools (
+large-scale optimization, numerical solvers, scientific computing) that I think
+transfer well beyond fundamental research. I am also genuinely interested in
+teaching and supervision, which has been a consistent part of my PhD years and
+something I want to continue.
 
-That question is what drew me in. But it's a second one that made me want to work on it rather than simply watch from the sidelines. We have only a fragmentary understanding of why modern ML systems work as well as they do: why certain architectures generalise, what is actually encoded in a trained model, how predictive accuracy relates to anything we would recognise as genuine understanding, and whether formal reasoning can be integrated into these systems in a principled way. These are precisely the things that would need to improve before AI can function as a genuine collaborator in research, rather than a sophisticated tool.
 
 ## Beyond work
 
